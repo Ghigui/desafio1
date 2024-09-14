@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+</head>
+    <body>
+        <h1>Página de cadastro de Alunos</h1>
+
+        <section>
+            <form action="cadastro_de_aluno.html">
+                <label for="nome_aluno">Nome:</label> <br>
+                <input type="text" name="nome_aluno"><br>
+
+                <br>
+
+                <label for="data_de_nasc">Data_de_nascimento:</label><br> 
+                <input type="date" name="data_de_nasc" id="data_de_nasc"> <br>
+
+                <br>
+
+                <label for="email">Email:</label> <br>
+                <input type="email" name="email" id="email"><br>
+
+                <br>
+
+                <label for="turma">Turma:</label>
+                <select name="turma" id="turma">
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select><br>
+
+                <br>
+
+                <label for="genero">Genêro:</label><br>
+
+                <label for="genero">Feminino</label>
+                <input type="radio" name="genero" id="masculino" value="masculino">
+
+                <label for="genero">Masculino</label>
+                <input type="radio" name="genero" id="feminino" value="feminino"><br>
+                
+                <br>
+
+                <label for="preferencias">Preferências:</label><br>
+                
+                <label for="esportes">Esportes</label>
+                <input type="checkbox" name="esportes" id="esportes" value="esportes">
+
+                <label for="musica">Música</label>
+                <input type="checkbox" name="musica" id="musica" value="musica">
+
+                <label for="arte">Arte</label>
+                <input type="checkbox" name="arte" id="arte" value="arte"><br>
+                
+                <br>
+
+                <label for="observacoes">Observações</label>
+                <input type="textarea" name="observacoes" id="observacoes" ><br>
+
+                <br>
+                
+                <button type="submit">Enviar</button> <br>
+                
+            </form>
+        </section>
+        
+    </body>
+</html>
